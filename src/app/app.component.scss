@@ -1,0 +1,85 @@
+header{
+    margin: 0;
+    padding: 10px;
+    .imgLogo{
+        height: 40px;
+        margin-top: 15px;
+        img{
+            height: 100%;
+            box-shadow: 0 5px 10px rgba(0,0,0,.8);
+            transition: all .2s ease-in-out;
+        }
+        img:hover,
+        img:focus,
+        img:active{
+            transform: scale(1.1);
+            box-shadow: 0 3px 5px rgba(0,0,0,.5);
+
+        }
+    }
+    input{
+        float: left;
+        margin-right: 30px;
+    }
+
+    .btn{
+        transition: all .2s ease-in-out;
+        box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    }
+    .btn:hover,
+    .btn:active,
+    .btn:focus{
+        transform: scale(1.1);
+        box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    }
+}
+.img-fluid{
+    height: 500px;
+    margin: 0;
+    overflow: hidden;
+}
+.card {
+    position: relative;
+    height: 500px;
+    margin-top: 20px;
+    box-shadow: 2px 4px 9px 1px #000;
+}
+
+.card:hover .overview,
+.card:active .overview,
+.card:focus .overview {
+    display: block;
+    transform: translateY(0);
+}
+
+figure .img-fluid{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+.heading{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(4, 57, 114);
+    color: #fff;
+}
+.heading span {
+    display: inline-block;
+    margin: -23px;
+}
+.overview{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    transform: translateY(100%);
+    transition: all .4 ease-in-out;
+    display: none;
+}

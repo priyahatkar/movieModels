@@ -1,0 +1,107 @@
+header {
+  margin: 0;
+  padding: 10px;
+}
+
+header .imgLogo {
+  height: 40px;
+  margin-top: 15px;
+}
+
+header .imgLogo img {
+  height: 100%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+header .imgLogo img:hover,
+header .imgLogo img:focus,
+header .imgLogo img:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+header input {
+  float: left;
+  margin-right: 30px;
+}
+
+header .btn {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .btn:hover,
+header .btn:active,
+header .btn:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-fluid {
+  height: 500px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  height: 500px;
+  margin-top: 20px;
+  -webkit-box-shadow: 2px 4px 9px 1px #000;
+          box-shadow: 2px 4px 9px 1px #000;
+}
+
+.card:hover .overview,
+.card:active .overview,
+.card:focus .overview {
+  display: block;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+figure .img-fluid {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* position: relative; */
+}
+
+.heading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #043972;
+  color: #fff;
+}
+
+.heading span {
+  display: inline-block;
+  margin: -23px;
+}
+
+.overview {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: all .4 ease-in-out;
+  transition: all .4 ease-in-out;
+  display: none;
+}
+/*# sourceMappingURL=app.component.css.map */
